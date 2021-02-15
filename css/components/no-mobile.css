@@ -1,0 +1,28 @@
+@import "../variables.css";
+
+#no-mobile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--base_color);
+  font-size: 30px;
+}
+
+#no-mobile span {
+  font-size: 30px;
+  font-weight: 800;
+  color: blueviolet;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}

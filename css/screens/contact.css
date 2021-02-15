@@ -1,0 +1,14 @@
+@import "../variables.css";
+
+.contact_startswith {
+  background-color: var(--base_color);
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.contact_startswith span {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}

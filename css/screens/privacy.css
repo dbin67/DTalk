@@ -1,0 +1,19 @@
+@import "../variables.css";
+
+.privacy_id_tab {
+  padding: 50px 20px;
+}
+
+.privacy_id_img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.privacy_id_name {
+  margin: 20px;
+}
+
+.privacy_id_name h2 {
+  margin-bottom: 20px;
+}

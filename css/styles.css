@@ -1,0 +1,35 @@
+@import "variables.css";
+
+/* Components */
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/tab.css";
+@import "components/space.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/index.css";
+@import "screens/chats.css";
+@import "screens/contact.css";
+@import "screens/privacy.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+.lite_text {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.bold_text {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.first_element {
+  margin-top: 60px;
+}
+
+body {
+  padding: 10px;
+  box-sizing: border-box;
+}

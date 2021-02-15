@@ -1,0 +1,32 @@
+.space {
+  width: 100%;
+  height: 20px;
+  background-color: var(--base_color);
+  position: absolute;
+  right: 0;
+}
+
+.space_margin_top {
+  margin-top: 20px;
+}
+
+.space_margin_bottom {
+  margin-bottom: -7px;
+}
+
+.space_first_element {
+  margin-top: 40px;
+}
+
+.space_last {
+  width: 100%;
+  height: 100px;
+  background-color: var(--base_color);
+  position: absolute;
+  right: 0;
+}
+
+.space_text {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}

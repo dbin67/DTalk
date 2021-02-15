@@ -1,0 +1,41 @@
+@import "variables.css";
+
+.chats_tab {
+  margin-bottom: 20px;
+}
+
+.chats_anchor {
+  color: inherit;
+  background-color: var(--base_color);
+  text-decoration: none;
+}
+
+@keyframes hiddenSplash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash_screen {
+  background-color: var(--base_color);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  animation: hiddenSplash 1s ease-in-out 0.5s forwards;
+}
+
+#splash_screen i {
+  color: blueviolet;
+  opacity: 0.5;
+}
